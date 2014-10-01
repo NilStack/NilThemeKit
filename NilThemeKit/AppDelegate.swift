@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.backgroundColor = UIColor.whiteColor()
         
-        NilThemeKit.setupTheme(primaryColor: NilThemeKit.color(r: 0.0, g: 184.0, b: 156.0), secondaryColor: UIColor.whiteColor(), fontname: "HelveticaNeue-Light", lightStatusBar:true)
+        NilThemeKit.setupTheme(primaryColor: NilThemeKit.color(r: 3.0, g: 169.0, b: 244.0), secondaryColor: UIColor.whiteColor(), fontname: "HelveticaNeue-Light", lightStatusBar:true)
         let mainVC: ViewController = ViewController()
         let navigationController: UINavigationController = UINavigationController(rootViewController: mainVC)
         mainVC.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Favorites, tag: 0)
