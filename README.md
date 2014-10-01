@@ -1,4 +1,5 @@
 # NilThemeKit
+==================
 
 NilThemeKit is swift version [MAThemeKit](https://github.com/mamaral/MAThemeKit) by @mamaral. 
 
@@ -6,9 +7,13 @@ NilThemeKit is swift version [MAThemeKit](https://github.com/mamaral/MAThemeKit)
 
 currently, it's just translate MAThemeKit to swift.
 # Usage
-Copy NilThemeKit.swift to your project and set the theme with parameters like primaryColor, secondaryColor, fontname and lightStatusBar style.
-`NilThemeKit.setupTheme(primaryColor: NilThemeKit.color(r: 3.0, g: 169.0, b: 244.0), secondaryColor:UIColor.whiteColor(),fontname: "HelveticaNeue-Light",lightStatusBar:true)`
+=====
 
-![image](https://github.com/mamaral/MAThemeKit/blob/master/ScreenShot.png)
+Copy NilThemeKit.swift to your project and set the theme with parameters like primaryColor, secondaryColor, fontname and lightStatusBar style.
+
+```js
+NilThemeKit.setupTheme(primaryColor: NilThemeKit.color(r: 3.0, g: 169.0, b: 244.0), secondaryColor:UIColor.whiteColor(),fontname: "HelveticaNeue-Light",lightStatusBar:true)
+```
+![image](https://github.com/mamaral/NilThemeKit/blob/master/ScreenShot.png)
 # License
 Under MIT License. Please refer to LICENSE.md.
