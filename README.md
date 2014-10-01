@@ -1,5 +1,5 @@
 # NilThemeKit
-==================
+=====
 
 NilThemeKit is swift version [MAThemeKit](https://github.com/mamaral/MAThemeKit) by @mamaral. 
 
@@ -14,6 +14,6 @@ Copy NilThemeKit.swift to your project and set the theme with parameters like pr
 ```js
 NilThemeKit.setupTheme(primaryColor: NilThemeKit.color(r: 3.0, g: 169.0, b: 244.0), secondaryColor:UIColor.whiteColor(),fontname: "HelveticaNeue-Light",lightStatusBar:true)
 ```
-![image](https://github.com/mamaral/NilThemeKit/blob/master/ScreenShot.png)
+![image](https://github.com/NilStack/NilThemeKit/blob/master/ScreenShot.png)
 # License
 Under MIT License. Please refer to LICENSE.md.
