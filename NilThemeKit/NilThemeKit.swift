@@ -164,7 +164,7 @@ class NilThemeKit {
         // String should be 6 or 8 characters
         if (countElements(cString) < 6)
         {
-            return UIColor.greenColor()
+            return UIColor.grayColor()
         }
     
         // strip 0X if it appears

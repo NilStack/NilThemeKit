@@ -16,7 +16,10 @@ Copy NilThemeKit.swift to your project and set the theme with parameters like pr
 NilThemeKit.setupTheme(primaryColor: NilThemeKit.color(r: 3.0, g: 169.0, b: 244.0), secondaryColor:UIColor.whiteColor(),fontname: "HelveticaNeue-Light",lightStatusBar:true)
 ```
 
+
 ![demo](ScreenShot.png)
+
+You can use my another open sourced library [NilColorKit](https://github.com/NilStack/NilColorKit) to set the theme with Google material colors and FlatUI Colors.
 
 License
 =====
